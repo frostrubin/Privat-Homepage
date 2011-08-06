@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Service-Bereich"
+AuthUserFile /kunden/247731_64285/access/.htusers
+Require user itunes

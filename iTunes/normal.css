@@ -1,0 +1,102 @@
+body {
+background-color: #262626;
+  background: #474747 url(bg.png);
+  margin: 0px;
+
+ 
+}
+
+.alphabet_td {
+text-align: center; 
+font-family: Lucida Sans Unicode, Lucida Grande;
+font-size: 2.6em;
+/*
+background-color: #313131; /*Hintergrundfarbe des Alphabets*/ 
+*/
+}
+.alphabet,
+.alphabet:link,
+.alphabet:visited,
+.alphabet:hover {
+
+color: #EEFFFF;
+background-color: none; 
+text-decoration:none;
+-webkit-box-reflect: below 4px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.8, transparent), to(black));
+}
+
+.letter  {
+font-family: Lucida Sans Unicode, Lucida Grande; 
+font-size: 1.3em;
+color: #EEFFFF; /* Farbe des Buchstabens */
+background-color: #313131;
+background: -webkit-gradient(linear, left top, left bottom, from(#464646), to(#1F1F1F), color-stop(1.0, #fff));
+padding: 0px; 
+border-radius: 12px;
+-moz-border-radius: 12px;
+-khtml-border-radius: 12px;
+-webkit-border-radius: 12px;
+
+}
+
+.anzahl { 
+font-family: Lucida Sans Unicode, Lucida Grande; 
+font-size: 1em;
+text-align: right; 
+color: #EEFFFF; /* Farbe des Textes */
+background-color: #313131;
+background: -webkit-gradient(linear, left top, left bottom, from(#464646), to(#1F1F1F), color-stop(1.0, #fff));
+border-radius: 12px;
+-moz-border-radius: 12px;
+-khtml-border-radius: 12px;
+-webkit-border-radius: 12px;
+
+}
+.albumlink
+.albumlink:link,
+.albumlink:visited {
+display: block;
+width: <?php echo $coverwidth; ?> ; 
+}
+
+.albumimg {
+display: block;
+border-radius: 10px;
+-moz-border-radius: 10px;
+-khtml-border-radius: 10px;
+-webkit-border-radius: 10px;
+width: <?php echo $coverwidth; ?> ; 
+height: <?php echo $coverheight; ?> ; 
+border: 1px solid black;
+margin: 0; 
+margin-top: 10px; 
+margin-bottom: 30px; /*Wie viel Platz soll unter einem Bild sein */ 
+/*-webkit-box-reflect: below 4px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.8, transparent), to(black));*/
+-webkit-box-shadow: 3px 3px 6px #000;
+-moz-box-shadow: 3px 3px 6px #000;
+}
+.albumimg:hover{
+-webkit-transform:scale(1.25);
+-webkit-transition: all .2s linear;
+/*cursor: pointer;*/
+}
+.iphone-glow {
+width: <?php echo $coverwidth; ?> ; 
+height: <?php echo $coverheight; ?> ; 
+background: url(./iphone_glow.png);
+border-radius: 10px;
+-moz-border-radius: 10px;
+-khtml-border-radius: 10px;
+-webkit-border-radius: 10px;
+}
+.albumname {
+display: block;
+font-family: Lucida Sans Unicode, Lucida Grande; 
+font-size: 0.9em;
+font-weight: bold; 
+color: #EEFFFF;
+margin-top: -20px; /*Wo soll der Text eines Bildes stehen */
+margin-bottom: 10px; 
+}
+
+
